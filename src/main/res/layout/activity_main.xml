@@ -9,11 +9,5 @@
         android:text="@string/button_main_runQuad"
         android:onClick="buttonQuad"
         android:textAllCaps="false"/>
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/button_main_runGame"
-        android:onClick="buttonGame"
-        android:textAllCaps="false"/>
 
 </LinearLayout>

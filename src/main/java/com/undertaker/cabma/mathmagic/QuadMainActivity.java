@@ -9,7 +9,6 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.undertaker.cabma.mathmagic.gameMain.GameMainActivity;
 import com.undertaker.cabma.mathmagic.quadratics.QuadSolve;
 
 public class QuadMainActivity extends AppCompatActivity {

@@ -1,7 +1,6 @@
 <resources>
     <string name="app_name">That One App</string>
     <string name="button_main_runQuad">Quad Solver</string>
-    <string name="button_main_runGame">Game Thing</string>
     <string name="quadratic_header">Quad Solver, enter a, b, and c</string>
     <string name="edit_quad_a">Enter A</string>
     <string name="edit_quad_b">Enter B</string>

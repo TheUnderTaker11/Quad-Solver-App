@@ -21,6 +21,10 @@ public class QuadSolve {
             double c = Double.parseDouble(C);
             double xplus = solveQuadPlus(a,b,c);
             double xminus = solveQuadMinus(a,b,c);
+            if(a==0)
+            {
+                return "A cannot be 0";
+            }
             String solutions =("The two solutions are X="+xplus+" and X="+xminus);
             // Will be true if there is an imaginary number
             if(Double.isNaN(xplus))
@@ -51,6 +55,10 @@ public class QuadSolve {
             double answerplus = solveQuadPlus(a,b,c);
             double answerminus = solveQuadMinus(a,b,c);
             int factor = 1;
+            if(a==0)
+            {
+                return "";
+            }
             if(Double.isNaN(answerplus))
             {
                 return "No factor for imaginary solutions";
